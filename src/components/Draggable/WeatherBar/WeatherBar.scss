@@ -1,0 +1,129 @@
+#weatherBar {
+  background: linear-gradient(90deg, #237ad7, #dcedff);
+  width: 90vw;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 13px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+.buttonContainer button {
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  text-align: left;
+  background: white;
+  outline: none;
+  border: 1px transparent solid;
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 17px;
+}
+
+.temperature {
+  width: 10vw;
+  color: white;
+  height: 100%;
+  position: relative;
+  .temp {
+    text-align: end;
+    font-size: 70px;
+    line-height: 20px;
+    position: absolute;
+    top: 75px;
+    left: 30px;
+    z-index: 3;
+  }
+  .icon {
+    position: absolute;
+    z-index: 1;
+    left: 173px;
+    top: -4px;
+    img {
+      width: 115px;
+      height: auto;
+    }
+  }
+  .description {
+    position: absolute;
+    width: 100px;
+    top: 80px;
+    left: 65px;
+  }
+  .info {
+    display: flex;
+    flex-direction: row;
+
+    .location,
+    .date {
+      font-size: 19px;
+      position: absolute;
+      width: 260px;
+    }
+    .location {
+      top: 140px;
+      left: 20%;
+    }
+    .date {
+      position: absolute;
+      top: 120px;
+      left: 20%;
+    }
+  }
+}
+.js-plotly-plot .plotly .main-svg {
+  border-radius: 11px;
+}
+
+.selected {
+  color: #00417e;
+  font-weight: bold;
+}
+.heart-icon {
+  right: -60px;
+  bottom: 31px;
+  position: absolute;
+  cursor: pointer;
+  .hide {
+    display: none;
+  }
+}
+
+.weatherContainer {
+  .handle {
+    position: absolute;
+  }
+  .triangle {
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 0 0 40px;
+    border-color: transparent transparent transparent #ffffff;
+    position: relative;
+    top: 80px;
+    left: 0px;
+  }
+  .visibility-icon {
+    color: #ffff;
+    position: absolute;
+    right: 3px;
+    z-index: 10;
+    top: 0px;
+    cursor: pointer;
+  }
+  .hidden {
+    visibility: hidden;
+    &.transparent {
+      opacity: 0.5;
+      visibility: visible;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.FvouritePlaces {
+  width: 220px;
+  box-shadow: none !important;
+  padding: 7px 10px 10px 10px;
+  cursor: pointer;
+  background: linear-gradient(#2c80d9, #cae4ff);
+  border-radius: 11px !important;
+  border: none !important;
+  color: #fff;
+  label {
+    color: #fff !important;
+    font-size: 20px;
+    font-family: "Abhaya Libre";
+  }
+  option {
+    font-size: 20px;
+    color: #2c80d9;
+    background-color: #cae4ff !important;
+  }
+  .MuiSelect-filled {
+    color: #fff !important;
+    font-family: "Abhaya Libre";
+    font-size: 20px;
+  }
+  .MuiSelect-icon {
+    color: #fff;
+  }
+  .visibility-icon {
+    color: #ffff;
+    position: absolute;
+    right: 3px;
+    z-index: 10;
+    top: 0px;
+    cursor: pointer;
+  }
+  .hidden {
+    visibility: hidden;
+    &.transparent {
+      opacity: 0.5;
+      visibility: visible;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+.MuiDrawer-paperAnchorLeft {
+  background: rgba(255, 255, 255, 0.7) !important;
+  padding: 20px !important;
+  justify-content: space-between;
+  height: 80% !important;
+}
+
+.MuiDialog-paperWidthSm {
+  max-width: 100% !important;
+}
+
+.form-group {
+  display: flex;
+  .MuiInput-underline:before,
+  .MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom: none !important;
+  }
+  input {
+    padding: 19px;
+    width: 250px;
+    border-radius: 11px;
+    margin-right: 10px;
+    background-color: #2b7fd8;
+    color: white;
+  }
+  ::placeholder {
+    color: white;
+    font-size: 18px !important;
+    opacity: 0.7 !important;
+  }
+  input:focus {
+    outline: none;
+  }
+  .listBackground {
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+form ul li {
+  list-style-type: none;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.standard-button {
+  font-size: 18px !important;
+  border-radius: 11px !important;
+  margin-top: 10px !important;
+  width: 100%;
+  color: white !important;
+  text-transform: inherit !important;
+  background-color: #2b7fd8 !important;
+}
+.switchModeButton {
+  font-size: 18px !important;
+  border-radius: 11px !important;
+  margin-top: 10px !important;
+  width: 50%;
+  color: white !important;
+  text-transform: inherit !important;
+  background-color: #2b7fd8 !important;
+  height: 65px;
+  margin: 5px;
+}
+
+.buttonModeContainer {
+  display: flex;
+}
+button {
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.MuiDrawer-paper {
+  max-width: 400px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.settings-icon {
+  svg {
+    color: white;
+    width: 2.4em;
+    height: auto;
+  }
+}
+

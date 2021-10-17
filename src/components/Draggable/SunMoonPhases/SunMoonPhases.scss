@@ -1,0 +1,63 @@
+.SunMoonPhases {
+  width: 200px;
+  box-shadow: none !important;
+  padding: 7px 10px 10px 10px;
+  border-radius: 11px !important;
+  &.sun {
+    background: linear-gradient(#d5b81f, #cae4ff);
+  }
+  &.moon {
+    background: linear-gradient(#5173c3, #cae4ff);
+  }
+  .hour {
+    font-size: 47px;
+    line-height: 45px;
+    display: flex;
+    letter-spacing: 2px;
+    font-family: serif;
+  }
+  .text {
+    text-align: end;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  div {
+    color: #ffff;
+  }
+  #icon {
+    height: 50px;
+    position: absolute;
+    right: 15px;
+    width: max-content;
+    top: 3px;
+  }
+  .handle {
+    position: absolute;
+  }
+  .triangle {
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 0 0 40px;
+    border-color: transparent transparent transparent #ffffff;
+    position: relative;
+    top: -20px;
+    left: -10px;
+  }
+  .visibility-icon {
+    color: #ffff;
+    position: absolute;
+    right: 2px;
+    z-index: 10;
+    top: 0px;
+    cursor: pointer;
+  }
+}
+.hidden {
+  visibility: hidden;
+  &.transparent {
+    opacity: 0.5;
+    visibility: visible;
+  }
+}

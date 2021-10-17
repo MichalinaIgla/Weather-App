@@ -1,0 +1,33 @@
+.mapWeather {
+  .container {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: -1;
+    width: 100%;
+  }
+
+  .flags {
+    position: absolute;
+    right: 60px;
+    top: 10px;
+    img {
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+    }
+    #first {
+      z-index: 4;
+      position: absolute;
+      right: 20px;
+    }
+    #second {
+      position: absolute;
+      right: 0px;
+      z-index: 5;
+    }
+  }
+}

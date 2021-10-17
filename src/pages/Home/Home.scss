@@ -1,0 +1,84 @@
+.homeContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  div {
+    font-family: "Poppins", sans-serif !important;
+  }
+
+  .navBar {
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5rem;
+    .title {
+      font-size: 30px;
+      color: #345995;
+      font-weight: bold;
+    }
+    div {
+      margin-left: 4rem;
+    }
+    a div {
+      font-size: 24px;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+  .main {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .leftPart {
+      width: 50%;
+      height: 100%;
+      img {
+        position: absolute;
+        top: 460px;
+        left: 380px;
+      }
+      .welcomeText {
+        font-size: 99px;
+        font-weight: bolder;
+        position: absolute;
+        top: 350px;
+        left: 140px;
+      }
+    }
+    .rightPart {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      height: 100%;
+      .searchBox {
+        background-color: #dcedff;
+        position: absolute;
+        width: 430px;
+        height: 130px;
+        top: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        border-radius: 16px;
+        padding: 0px 20px 0px 20px;
+        color: black;
+      }
+      img {
+        width: 53px;
+        height: 51px;
+        margin: 10px;
+      }
+      a {
+        width: 430px;
+        height: 130px;
+        text-decoration: none;
+      }
+    }
+  }
+}
