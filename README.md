@@ -1,23 +1,14 @@
 # Weather App
-> Check weather
-
-
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-
 
 ## Features
 - Provide general weather information.
-- You can drag widgets in edit mode.
+- You can drag, show/hide widgets in edit mode.
 - You can save widgtes arraignment.
 - Shows your location.
 - Change languages between pl/en.
 - Search location.
+- Add location to favourites.
 - Search history.
-
-
 
 ## Technologies Used
 - React with Typescript
@@ -31,5 +22,6 @@
 
 ![image](https://user-images.githubusercontent.com/50525581/137640905-27d75f85-b749-45c7-9e6c-dc394b85a91f.png)
 
+Edit mode:
 ![image](https://user-images.githubusercontent.com/50525581/137640989-f279c00c-86b4-4c62-808b-9d096f89b4fd.png)
 
