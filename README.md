@@ -15,6 +15,7 @@
 - MongoDB
 - MaterialUI
 - Weather API
+- Google Map
 
 
 ## Screenshots
@@ -33,4 +34,7 @@ SideBar:
 
 Save arrangment:
 ![image](https://user-images.githubusercontent.com/50525581/137641893-5df5d12e-1e04-4819-b556-7ff266368ae5.png)
+
+In Polish:
+![image](https://user-images.githubusercontent.com/50525581/137641974-04c5ba89-f6fe-49a8-b2b1-acea969afd6b.png)
 
