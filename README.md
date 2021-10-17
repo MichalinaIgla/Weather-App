@@ -28,5 +28,9 @@ Map:
 Edit mode:
 ![image](https://user-images.githubusercontent.com/50525581/137640989-f279c00c-86b4-4c62-808b-9d096f89b4fd.png)
 
+SideBar:
+![image](https://user-images.githubusercontent.com/50525581/137641883-f05fbe82-4b08-44f9-a77d-c30f6962f799.png)
 
+Save arrangment:
+![image](https://user-images.githubusercontent.com/50525581/137641893-5df5d12e-1e04-4819-b556-7ff266368ae5.png)
 
