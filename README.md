@@ -4,11 +4,12 @@
 - Provide general weather information.
 - You can drag, show/hide widgets in edit mode.
 - You can save widgtes arraignment in MongoDB.
-- Shows your location.
 - Change languages between pl/en.
+- Shows your location.
 - Search location.
 - Add location to favourites.
 - Search history.
+- Views created with Figma.
 
 ## Technologies Used
 - React with Typescript
@@ -37,4 +38,3 @@ Save arrangment:
 
 In Polish:
 ![image](https://user-images.githubusercontent.com/50525581/137641974-04c5ba89-f6fe-49a8-b2b1-acea969afd6b.png)
-
