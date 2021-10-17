@@ -9,7 +9,6 @@
 - Search location.
 - Add location to favourites.
 - Search history.
-- Redux
 
 ## Technologies Used
 - React with Typescript
@@ -17,6 +16,7 @@
 - MaterialUI
 - Weather API
 - Google Map
+- Redux
 
 
 ## Screenshots
