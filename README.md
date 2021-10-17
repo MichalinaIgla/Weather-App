@@ -9,7 +9,7 @@
 - Search location.
 - Add location to favourites.
 - Search history.
-- Views created with Figma.
+- Redux
 
 ## Technologies Used
 - React with Typescript
