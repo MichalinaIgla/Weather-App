@@ -15,6 +15,7 @@
 - Shows your location.
 - Change languages between pl/en.
 - Search location.
+- Search history.
 
 
 
@@ -26,6 +27,7 @@
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+![image](https://user-images.githubusercontent.com/50525581/137640911-8a1bbbd8-6749-483e-afaa-a83fab50899f.png)
+
+![image](https://user-images.githubusercontent.com/50525581/137640905-27d75f85-b749-45c7-9e6c-dc394b85a91f.png)
 
