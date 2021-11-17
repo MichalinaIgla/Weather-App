@@ -21,6 +21,10 @@
 
 ## Screenshots
 
+My Figma Design: https://www.figma.com/file/aTdnUg5TIrL37yqNFn8pgH/WeatherApp?node-id=0%3A1
+![image](https://user-images.githubusercontent.com/50525581/142192398-c70f4b14-a1af-4231-a65b-7439186b4bfa.png)
+
+
 First Welcome Page:
 ![image](https://user-images.githubusercontent.com/50525581/137640911-8a1bbbd8-6749-483e-afaa-a83fab50899f.png)
 
